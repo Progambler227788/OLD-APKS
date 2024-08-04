@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/C4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:icon="@drawable/c4"
+        android:iconTint="#3C50B4"
+        android:title="Connect Four" />
+    <item
+        android:id="@+id/Options"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:icon="@drawable/options"
+        android:iconTint="#3C50B4"
+        android:title="Options" />
+</menu>

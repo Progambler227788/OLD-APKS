@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">hw1</string>
+    <string name="player_1_turn">Player 1 Turn</string>
+    <string name="player_2_turn">Player 2 Turn</string>
+    <string name="roll">Roll</string>
+    <string name="problem_answer">Problem Answer</string>
+    <string name="player_1_turns">Player 1 Turn</string>
+    <string name="enter_a_number">Enter a number:</string>
+    <string name="submit">Submit</string>
+    <string name="enter_a_number_description">Text field to input a number</string>
+    <string name="submit_button_description">Button to submit the input</string>
+    <string name="enter_a_number_hint">Enter a number</string>
+
+
+</resources>

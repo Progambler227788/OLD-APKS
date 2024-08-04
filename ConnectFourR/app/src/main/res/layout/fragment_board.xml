@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BoardFragment">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginHorizontal="10sp"
+        android:layout_marginVertical="10sp"
+        android:orientation="vertical"
+        android:background="@color/background">
+
+
+        <androidx.gridlayout.widget.GridLayout
+            android:id="@+id/grid_layout"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40sp"
+            android:layout_marginRight="10sp"
+            android:background="@color/background"
+            app:columnCount="6"
+            android:foregroundGravity="center"
+            app:rowCount="7"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent">
+
+            <!-- Buttons for the Connect Four game board go here -->
+            <Button
+                style="@style/circle"
+                android:theme="@style/circle"
+                tools:ignore="SpeakableTextPresentCheck,SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+            <Button
+                style="@style/circle"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                tools:ignore="SpeakableTextPresentCheck,SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+            <Button
+                style="@style/circle"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                tools:ignore="SpeakableTextPresentCheck,SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+            <Button
+                style="@style/circle"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                tools:ignore="SpeakableTextPresentCheck,SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+            <Button
+                style="@style/circle"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                tools:ignore="SpeakableTextPresentCheck,SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+            <Button
+                style="@style/circle"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                tools:ignore="SpeakableTextPresentCheck,SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+            <Button
+                style="@style/circle"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                tools:ignore="SpeakableTextPresentCheck,SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+            <Button
+                style="@style/circle"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                tools:ignore="SpeakableTextPresentCheck,SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+            <Button
+                style="@style/circle"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                tools:ignore="SpeakableTextPresentCheck,SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+            <Button
+                style="@style/circle"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                tools:ignore="SpeakableTextPresentCheck,SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+            <Button
+                style="@style/circle"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                tools:ignore="SpeakableTextPresentCheck,SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+            <Button
+                style="@style/circle"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                tools:ignore="SpeakableTextPresentCheck,SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+            <Button
+                style="@style/circle"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                tools:ignore="SpeakableTextPresentCheck,SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+            <Button
+                style="@style/circle"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                tools:ignore="SpeakableTextPresentCheck,SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+            <Button
+                style="@style/circle"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                tools:ignore="SpeakableTextPresentCheck,SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+            <Button
+                style="@style/circle"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                tools:ignore="SpeakableTextPresentCheck,SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+            <Button
+                style="@style/circle"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                tools:ignore="SpeakableTextPresentCheck,SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+            <Button
+                style="@style/circle"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                tools:ignore="SpeakableTextPresentCheck,SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+            <Button
+                style="@style/circle"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                tools:ignore="SpeakableTextPresentCheck,SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+            <Button
+                style="@style/circle"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                tools:ignore="SpeakableTextPresentCheck,SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+            <Button
+                style="@style/circle"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                tools:ignore="SpeakableTextPresentCheck,SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+            <Button
+                style="@style/circle"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                tools:ignore="SpeakableTextPresentCheck,SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+
+            <Button
+                style="@style/circle"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                tools:ignore="SpeakableTextPresentCheck,SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+
+            <Button
+                style="@style/circle"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                tools:ignore="SpeakableTextPresentCheck,SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+            <Button
+                style="@style/circle"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                tools:ignore="SpeakableTextPresentCheck,SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+            <Button
+                style="@style/circle"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                tools:ignore="SpeakableTextPresentCheck,SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+            <Button
+                style="@style/circle"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                tools:ignore="SpeakableTextPresentCheck,SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+            <Button
+                style="@style/circle"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                tools:ignore="SpeakableTextPresentCheck,SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+            <Button
+                style="@style/circle"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                tools:ignore="SpeakableTextPresentCheck,SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+            <Button
+                style="@style/circle"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                tools:ignore="SpeakableTextPresentCheck,SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+            <Button
+                style="@style/circle"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                tools:ignore="SpeakableTextPresentCheck,SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+            <Button
+                style="@style/circle"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                tools:ignore="SpeakableTextPresentCheck,SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+            <Button
+                style="@style/circle"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                tools:ignore="SpeakableTextPresentCheck,SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+            <Button
+                style="@style/circle"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                tools:ignore="SpeakableTextPresentCheck,SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+            <Button
+                style="@style/circle"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                tools:ignore="SpeakableTextPresentCheck,SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+            <Button
+                style="@style/circle"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                tools:ignore="SpeakableTextPresentCheck,SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+            <Button
+                style="@style/circle"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                tools:ignore="SpeakableTextPresentCheck,SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+            <Button
+                style="@style/circle"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                tools:ignore="SpeakableTextPresentCheck,SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+            <Button
+                style="@style/circle"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                tools:ignore="SpeakableTextPresentCheck,SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+            <Button
+                style="@style/circle"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                tools:ignore="SpeakableTextPresentCheck,SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+            <Button
+                style="@style/circle"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                tools:ignore="SpeakableTextPresentCheck,SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+
+            <Button
+                style="@style/circle"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                tools:ignore="SpeakableTextPresentCheck,SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+
+            <!-- Add more buttons for the game board as needed -->
+
+        </androidx.gridlayout.widget.GridLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</LinearLayout>

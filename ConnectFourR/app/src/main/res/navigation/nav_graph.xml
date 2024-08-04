@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/boardFragment">
+
+    <fragment
+        android:id="@+id/boardFragment"
+        android:name="com.example.connectfour.BoardFragment"
+        android:label="fragment_board"
+        tools:layout="@layout/fragment_board">
+
+    </fragment>
+    <action
+        android:id="@+id/action_board_to_gameOptions"
+        app:destination="@id/gameOptionsFragment" />
+
+    <fragment
+        android:id="@+id/gameOptionsFragment"
+        android:name="com.example.connectfour.GameOptionsFragment"
+        tools:layout="@layout/fragment_game_options"
+        android:label="GameOptionsFragment" >
+
+    </fragment>
+
+    <action
+        android:id="@+id/action_gameOptions_to_board"
+        app:destination="@id/boardFragment" />
+
+
+</navigation>

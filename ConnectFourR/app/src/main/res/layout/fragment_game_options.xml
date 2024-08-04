@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/ballWhite"
+    tools:context=".GameOptionsFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginHorizontal="10sp"
+        android:layout_marginVertical="10sp"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:background="@color/background"
+       >
+
+    <TextView
+        style="@style/h1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Select Difficulty"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        tools:ignore="HardcodedText">
+
+    </TextView>
+
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:id="@+id/radioOptions"
+        android:layout_height="wrap_content"
+      >
+
+        <RadioButton
+            android:id="@+id/easy"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:checked="true"
+            android:outlineAmbientShadowColor="@color/black"
+            android:outlineSpotShadowColor="@color/black"
+            android:shadowColor="@color/black"
+            android:text="Easy"
+            android:textColor="@color/black"
+            android:textSize="12sp"
+            tools:ignore="HardcodedText,RtlHardcoded,TouchTargetSizeCheck,TextSizeCheck" />
+
+        <RadioButton
+            android:id="@+id/medium"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:checked="false"
+            android:outlineAmbientShadowColor="@color/black"
+            android:outlineSpotShadowColor="@color/black"
+            android:shadowColor="@color/black"
+            android:text="Medium"
+            android:textColor="@color/black"
+            android:textSize="12sp"
+            tools:ignore="HardcodedText,RtlHardcoded,TouchTargetSizeCheck,TextSizeCheck" />
+
+        <RadioButton
+            android:id="@+id/hard"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:outlineAmbientShadowColor="@color/black"
+            android:outlineSpotShadowColor="@color/black"
+            android:shadowColor="@color/black"
+            android:text="Hard"
+            android:checked="false"
+            android:textColor="@color/black"
+            android:textSize="12sp"
+            tools:ignore="HardcodedText,RtlHardcoded,TouchTargetSizeCheck,TextSizeCheck" />
+    </RadioGroup>
+
+</LinearLayout>
+</LinearLayout>
